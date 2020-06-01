@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>AzureSearch.OData.Filter.Query</id>
+    <version>1.0.2</version>
+    <title>AzureSearch.OData.FilterQuery</title>
+    <authors>Sajith</authors>
+    <owners>Sajith</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/sajith-v/AzureSearch.oData.QueryBuilder</projectUrl>
+    <description>A Helper library to create filter query for Microsoft Azure Cognitive search service</description>
+    <releaseNotes>Support to more operators added</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+  </metadata>
+</package>
