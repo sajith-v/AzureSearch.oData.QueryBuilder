@@ -1,6 +1,6 @@
 ﻿namespace AzureSearch.OData.Expression
 {
-    public interface IODataLogical : IODataOperator
+    public interface IComparison : IOperator
     {
 
     }

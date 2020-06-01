@@ -1,9 +1,9 @@
 ﻿namespace AzureSearch.OData.Expression
 {
-    public abstract class ODataOperatorBase : IODataOperator
+    public abstract class OperatorBase : IOperator
     {
         public string Value { get; set; }
-        public ODataOperatorBase(string value)
+        public OperatorBase(string value)
         {
             Value = value;
         }

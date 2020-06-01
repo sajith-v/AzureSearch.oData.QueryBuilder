@@ -3,6 +3,6 @@
     public interface IODataExpression
     {
         string FilterExpression { get; set; }
-        IODataExpression Add(IODataLogical logicalOperator, IODataOperation operation);
+        IODataExpression Add(ILogical logicalOperator, IODataOperation operation);
     }
 }

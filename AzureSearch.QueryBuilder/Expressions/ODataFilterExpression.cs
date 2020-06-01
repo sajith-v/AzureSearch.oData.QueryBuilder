@@ -10,7 +10,7 @@
         public string FilterExpression { get; set; }
 
 
-        public IODataExpression Add(IODataLogical logicalOperator, IODataOperation operation)
+        public IODataExpression Add(ILogical logicalOperator, IODataOperation operation)
         {
             FilterExpression = $"{FilterExpression} {logicalOperator.Value} {operation.Expression}";
             return this;

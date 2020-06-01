@@ -1,6 +1,6 @@
 ﻿namespace AzureSearch.OData.Expression
 {
-    public interface IODataOperator
+    public interface IOperator
     {
         string Value { get; set; }
     }
