@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>AzureSearch.OData.Filter.Query</id>
-    <version>1.0.2</version>
+    <version>3.1.0</version>
     <title>AzureSearch.OData.FilterQuery</title>
     <authors>Sajith</authors>
     <owners>Sajith</owners>
