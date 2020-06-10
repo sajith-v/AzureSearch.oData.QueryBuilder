@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>AzureSearch.OData.Filter.Query</id>
-    <version>3.1.0</version>
+    <version>3.1.1</version>
     <title>AzureSearch.OData.FilterQuery</title>
     <authors>Sajith</authors>
     <owners>Sajith</owners>
@@ -10,7 +10,11 @@
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/sajith-v/AzureSearch.oData.QueryBuilder</projectUrl>
     <description>A Helper library to create filter query for Microsoft Azure Cognitive search service</description>
-    <releaseNotes>Support to more operators added</releaseNotes>
+    <releaseNotes>Target framework updated to .net standard 2.0</releaseNotes>
     <copyright>Copyright 2020</copyright>
+	<dependencies>
+	  <group targetFramework="netstandard2.0">
+	 </group>
+	</dependencies>
   </metadata>
 </package>
